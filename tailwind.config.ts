@@ -17,6 +17,9 @@ const config: Config = {
 			blue:{
 				1:"#0E78F9"
 			},
+			sky:{
+				1:"#C9DDFF"
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -58,11 +61,17 @@ const config: Config = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		backgroundImage:{
+			hero:"url('/images/hero-background.png')"
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		glassMorphism:{
+1:"bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 max-w-[270px] py-2 text-center text-base font-mono"
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
