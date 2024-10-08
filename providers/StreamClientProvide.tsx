@@ -1,3 +1,4 @@
+"use client"
 import { tokenProvider } from "@/actions/stream.actions";
 import Loaders from "@/components/Loaders";
 import { useUser } from "@clerk/nextjs";
